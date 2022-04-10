@@ -1,0 +1,30 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ body{
+     background:url(https://i.pinimg.com/originals/17/aa/a7/17aaa7fced8645ddfdd73ddee8fa6267.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     overflow: hidden;
+     height: 100vh;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif; 
+    padding: 20px 70px;
+    color: #EDF6F9;
+}
+.current-info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.date-container .time{
+    font-size: 70px;
+    font-weight: 100;
+
+}
